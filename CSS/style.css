@@ -1,0 +1,30 @@
+/* Bootstrap overwrites */
+.navbar {
+    background-color: #2a455d;
+}
+.btn-warning {
+    background: linear-gradient(rgb(255, 230, 0), rgb(255, 200, 0)) !important;
+    border: 1px solid #c78f00 !important;
+    color: #654900;
+    font-weight: bold;
+    border-radius: 0;
+}
+.btn-warning:hover {
+    background: linear-gradient(rgb(255, 183, 0), rgb(255, 208, 0)) !important;
+    color: #654900 !important;
+}
+.nav-link {
+    padding: 0 !important;
+}
+.bg-info {
+    background-color: #2c6792 !important;
+}
+
+
+/* Custom classes */
+body {
+    background-color: #16202c;
+}
+main {
+    padding: 40px;
+}
