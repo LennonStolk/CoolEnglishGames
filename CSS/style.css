@@ -22,9 +22,25 @@
 
 
 /* Custom classes */
-body {
+.custom-body {
     background-color: #16202c;
 }
-main {
+.custom-main {
     padding: 40px;
+}
+.custom-navbar-brand {
+    max-width: 60%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.custom-logo {
+    max-width: 100%;
+}
+.custom-game-image {
+    width: 150px;
+    height: 100px;
+}
+.custom-game-description {
+    min-width: 200px;
+    max-width: 400px;
 }
