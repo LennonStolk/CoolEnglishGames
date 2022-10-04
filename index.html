@@ -14,13 +14,54 @@
 </head>
 <body class="custom-body">
 
-
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fs-4">
+        <div class="container-fluid">
+            <a class="navbar-brand custom-navbar-brand" href="index.html">
+                <img src="Images/logo.png" class="custom-logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">
+                            <button class="btn btn-warning fs-5 rounded-4 bg-gradient rounded-end">Games</button>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active">
+                            <button class="btn btn-warning fs-5 rounded-1 bg-gradient" id="get-random">Random!</button>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">
+                            <button class="btn btn-warning fs-5 rounded-4 bg-gradient rounded-start" data-bs-toggle="modal" data-bs-target="#exampleModal">Search</button>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
     <!-- Games -->
     <main class="m-auto w-75 custom-main">
         <h2 class="fs-5 bg-info pt-1 pb-2 text-white fw-bold px-3 rounded-3 mb-4">NEW GAMES</h2>
 
         <ul class="list-unstyled" id="game-list">
+
+            <li class="d-flex flex-wrap">
+                <a href="Games/Kart/index.html">
+                    <img src="Images/kart.png" class="p-2 bg-info border-primary me-3 mb-3 custom-game-image">
+                </a>
+                <div class="custom-game-description">
+                    <a href="#" class="text-decoration-none">
+                        <h6 class="text-info fw-bold">Spelling Kart</h6>
+                    </a>
+                    <p class="text-white">Race op het circuit van Engelsland, verzamel snelheid door middel van spellen en zet de snelste rondetijd!</p>
+                </div>
+            </li>
 
             <li class="d-flex flex-wrap">
                 <a href="#">
