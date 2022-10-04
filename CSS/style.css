@@ -44,3 +44,12 @@
     min-width: 200px;
     max-width: 400px;
 }
+
+/* Typing Game */
+
+.game-container {
+    width: 100vw;
+    height: 91.25vh;
+
+    background-color: #16202c;
+}
